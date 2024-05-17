@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "[yaml]": {
+    "editor.formatOnSave": false,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[html]": {
+    "editor.formatOnSave": false
+  }
+}
