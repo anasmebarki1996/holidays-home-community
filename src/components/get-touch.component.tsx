@@ -17,8 +17,8 @@ const GetTouch = () => {
                   <h1 className="mb-0">Grow up with us</h1>
                   <p>
                     Join us and find your ideal way to improve! At our
-                    community, you're in safe hands, ensuring a comfortable and
-                    secure experience
+                    community, {"you're"} in safe hands, ensuring a comfortable
+                    and secure experience
                   </p>
                 </div>
               </div>

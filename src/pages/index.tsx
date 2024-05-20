@@ -182,7 +182,7 @@ const HomePage = () => {
           </div>
           <div className="row">
             {holidayHomesList.map((el, index) => (
-              <div className="col-md-3">
+              <div className="col-md-3" key={index}>
                 <div className="property-wrap">
                   <Link
                     href={el.website}

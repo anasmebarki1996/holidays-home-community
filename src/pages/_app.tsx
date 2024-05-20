@@ -1,4 +1,6 @@
 // src/pages/_app.tsx
+// eslint-disable @next/next/no-sync-scripts
+
 import { Footer, Header } from "@/components";
 import { AppProps } from "next/app";
 import Head from "next/head";
@@ -40,6 +42,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <Footer />
       {/* Scripts */}
+      {/* eslint-disable @next/next/no-sync-scripts  */}
       <script src="/js/bootstrap.bundle.min.js"></script>
       <script src="/js/tiny-slider.js"></script>
       <script src="/js/glightbox.min.js"></script>
@@ -47,7 +50,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&sensor=false"></script>
       <script src="/js/google-map.js"></script>
       {/* <script src="/js/main.js"></script> */}
-
       <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"

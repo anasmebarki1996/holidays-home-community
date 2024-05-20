@@ -37,7 +37,7 @@ const ContactPage = () => {
                     <div className="contact-wrap w-100 p-md-5 p-4">
                       <h3>Contact us</h3>
                       <p className="mb-4">
-                        We're open for any suggestion or just to have a chat
+                        {"We're"} open for any suggestion or just to have a chat
                       </p>
                       <div className="row mb-4">
                         <div className="col-md-4">

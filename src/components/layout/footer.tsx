@@ -108,8 +108,8 @@ export const Footer = () => {
                 </li>
                 <li>
                   <Link href="/">
-                    <span className="fa fa-chevron-right mr-2"></span>User's
-                    Guide
+                    <span className="fa fa-chevron-right mr-2"></span>
+                    {"User's"} Guide
                   </Link>
                 </li>
                 <li>
