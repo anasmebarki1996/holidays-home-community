@@ -1,7 +1,14 @@
 import Link from "next/link";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export const Header = () => {
+  const { t, i18n } = useTranslation("common");
+
+  const changeLanguage = (lng: string) => {
+    // i18n.changeLanguage(lng);
+  };
+
   return (
     <>
       <div className="py-4 top-wrap">
@@ -13,7 +20,7 @@ export const Header = () => {
               </div>
               <div className="text pl-3 pl-md-3">
                 <p className="con">
-                  <span>Free Call</span> <span>+1 234 456 78910</span>
+                  <span>Free Call</span> <span>+971 56 870 8213</span>
                 </p>
                 <p className="con">Call Us Now 24/7 Customer Support</p>
               </div>
@@ -26,7 +33,7 @@ export const Header = () => {
                 <p className="hr">
                   <span>Our Location</span>
                 </p>
-                <p className="con">Suite 721 New York NY 10016</p>
+                <p className="con">Ibn Battuta Gate Office, 404A</p>
               </div>
             </div>
             <div className="col-md topper d-flex mb-md-0 align-items-xl-center">
@@ -38,9 +45,9 @@ export const Header = () => {
                   <span>Connect </span> <span>with us</span>
                 </p>
                 <p className="con">
-                  <Link href="index">Facebook</Link>{" "}
-                  <Link href="index">Twitter</Link>{" "}
-                  <Link href="index">Dribbble</Link>
+                  <span onClick={() => changeLanguage("en")}>English</span>
+                  <span onClick={() => changeLanguage("rs")}>Russian</span>
+                  <span onClick={() => changeLanguage("ar")}>Arabic</span>
                 </p>
               </div>
             </div>
@@ -49,9 +56,9 @@ export const Header = () => {
       </div>
       <nav className="navbar navbar-expand-lg  ftco-navbar-light">
         <div className="container-xl">
-          <Link className="navbar-brand align-items-center" href="index">
-            <span>
-              Oakberry <small>Real Estate Agency</small>
+          <Link className="navbar-brand align-items-center" href="/">
+            <span style={{ textAlign: "center" }}>
+              HHC <small>Holiday Homes community</small>
             </span>
           </Link>
           <button
@@ -78,8 +85,8 @@ export const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="properties">
-                  Properties
+                <Link className="nav-link" href="/holiday-homes">
+                  Holiday Homes
                 </Link>
               </li>
               <li className="nav-item">
@@ -99,8 +106,8 @@ export const Header = () => {
               </li>
             </ul>
             <p className="mb-0">
-              <Link href="index" className="btn btn-primary rounded">
-                Submit A Property
+              <Link href="/" className="btn btn-primary rounded">
+                Join us
               </Link>
             </p>
           </div>

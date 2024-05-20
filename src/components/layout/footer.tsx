@@ -9,29 +9,30 @@ export const Footer = () => {
           <div className="col-md-6 col-lg">
             <div className="ftco-footer-widget mb-4">
               <h2 className="ftco-heading-2 logo d-flex">
-                <Link className="navbar-brand align-items-center" href="index">
+                <Link className="navbar-brand align-items-center" href="/">
                   <span>
-                    Oakberry <small>Real Estate Agency</small>
+                    HHC <small>Holiday Homes community</small>
                   </span>
                 </Link>
               </h2>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Join our exclusive holiday homes community and experience luxury
+                living in Dubai. Enjoy world-class amenities, stunning views,
+                and the perfect retreat for any occasion.
               </p>
               <ul className="ftco-footer-social list-unstyled mt-2">
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-twitter"></span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-facebook"></span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-instagram"></span>
                   </Link>
                 </li>
@@ -43,24 +44,24 @@ export const Footer = () => {
               <h2 className="ftco-heading-2">Offers</h2>
               <ul className="list-unstyled">
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>
                     Properties
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>Agents
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>
                     Locations
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>Clients
                     Support
                   </Link>
@@ -73,22 +74,22 @@ export const Footer = () => {
               <h2 className="ftco-heading-2">Company</h2>
               <ul className="list-unstyled">
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>Home
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>About
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>Blog
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>Contact Us
                   </Link>
                 </li>
@@ -100,25 +101,25 @@ export const Footer = () => {
               <h2 className="ftco-heading-2">Quick Links</h2>
               <ul className="list-unstyled">
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>Terms
                     &amp; Conditions
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>User's
                     Guide
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>Support
                     Center
                   </Link>
                 </li>
                 <li>
-                  <Link href="index">
+                  <Link href="/">
                     <span className="fa fa-chevron-right mr-2"></span>Press Info
                   </Link>
                 </li>
@@ -133,25 +134,20 @@ export const Footer = () => {
                   <li>
                     <span className="icon fa fa-map marker"></span>
                     <span className="text">
-                      203 Fake St. Mountain View, San Francisco, California, USA
+                      Ibn Battuta Gate Office, 404A - Dubai, UAE
                     </span>
                   </li>
                   <li>
-                    <Link href="index">
+                    <Link href="https://wa.me/+971568708213" target="_blank">
                       <span className="icon fa fa-phone"></span>
-                      <span className="text">+2 392 3929 210</span>
+                      <span className="text">+971 56 870 8213</span>
                     </Link>
                   </li>
                   <li>
-                    <Link href="index">
+                    <Link href="mailto:Bilal@vayk.ae">
                       <span className="icon fa fa-paper-plane pr-4"></span>
                       <span className="text">
-                        <span
-                          className="__cf_email__"
-                          data-cfemail="6a03040c052a13051f180e05070b030444090507"
-                        >
-                          [email&#160;protected]
-                        </span>
+                        <span className="__cf_email__">Bilal@vayk.ae</span>
                       </span>
                     </Link>
                   </li>
@@ -169,24 +165,7 @@ export const Footer = () => {
                 className="mb-0"
                 style={{ color: "rgba(255,255,255,.5)", fontSize: "13px" }}
               >
-                Copyright &copy;
-                <script
-                  data-cfasync="false"
-                  src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-                ></script>
-                All rights reserved | This template is made with
-                <i
-                  className="fa fa-heart color-danger"
-                  aria-hidden="true"
-                ></i>{" "}
-                by
-                <Link
-                  href="https://colorlib.com"
-                  target="_blank"
-                  rel="nofollow noopener"
-                >
-                  Colorlib
-                </Link>
+                Copyright &copy; All rights reserved
               </p>
             </div>
           </div>

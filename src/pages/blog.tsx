@@ -14,7 +14,7 @@ const BlogPage = () => {
             <div className="col-md-9 pt-5 text-center">
               <p className="breadcrumbs">
                 <span className="mr-2">
-                  <Link href="index">
+                  <Link href="/">
                     Home <i className="fa fa-chevron-right"></i>
                   </Link>
                 </span>{" "}
@@ -52,8 +52,9 @@ const BlogPage = () => {
                     </Link>
                   </h3>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Join our exclusive holiday homes community and experience
+                    luxury living in Dubai. Enjoy world-class amenities,
+                    stunning views, and the perfect retreat for any occasion.
                   </p>
                 </div>
               </div>
@@ -80,8 +81,9 @@ const BlogPage = () => {
                     </Link>
                   </h3>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Join our exclusive holiday homes community and experience
+                    luxury living in Dubai. Enjoy world-class amenities,
+                    stunning views, and the perfect retreat for any occasion.
                   </p>
                 </div>
               </div>
@@ -108,8 +110,9 @@ const BlogPage = () => {
                     </Link>
                   </h3>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Join our exclusive holiday homes community and experience
+                    luxury living in Dubai. Enjoy world-class amenities,
+                    stunning views, and the perfect retreat for any occasion.
                   </p>
                 </div>
               </div>
@@ -136,8 +139,9 @@ const BlogPage = () => {
                     </Link>
                   </h3>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Join our exclusive holiday homes community and experience
+                    luxury living in Dubai. Enjoy world-class amenities,
+                    stunning views, and the perfect retreat for any occasion.
                   </p>
                 </div>
               </div>
@@ -164,8 +168,9 @@ const BlogPage = () => {
                     </Link>
                   </h3>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Join our exclusive holiday homes community and experience
+                    luxury living in Dubai. Enjoy world-class amenities,
+                    stunning views, and the perfect retreat for any occasion.
                   </p>
                 </div>
               </div>
@@ -192,8 +197,9 @@ const BlogPage = () => {
                     </Link>
                   </h3>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Join our exclusive holiday homes community and experience
+                    luxury living in Dubai. Enjoy world-class amenities,
+                    stunning views, and the perfect retreat for any occasion.
                   </p>
                 </div>
               </div>
@@ -220,8 +226,9 @@ const BlogPage = () => {
                     </Link>
                   </h3>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Join our exclusive holiday homes community and experience
+                    luxury living in Dubai. Enjoy world-class amenities,
+                    stunning views, and the perfect retreat for any occasion.
                   </p>
                 </div>
               </div>
@@ -248,8 +255,9 @@ const BlogPage = () => {
                     </Link>
                   </h3>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Join our exclusive holiday homes community and experience
+                    luxury living in Dubai. Enjoy world-class amenities,
+                    stunning views, and the perfect retreat for any occasion.
                   </p>
                 </div>
               </div>

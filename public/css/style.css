@@ -2571,6 +2571,10 @@ textarea.form-control {
   padding: 0;
   margin-top: 50px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .places-list li {
   list-style: none;
@@ -2578,6 +2582,7 @@ textarea.form-control {
   padding-bottom: 15px;
   margin-bottom: 15px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  width: 230px;
 }
 .places-list li a {
   color: #000000;

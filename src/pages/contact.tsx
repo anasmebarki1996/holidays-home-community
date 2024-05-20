@@ -14,7 +14,7 @@ const ContactPage = () => {
             <div className="col-md-9 pt-5 text-center">
               <p className="breadcrumbs">
                 <span className="mr-2">
-                  <Link href="index">
+                  <Link href="/">
                     Home <i className="fa fa-chevron-right"></i>
                   </Link>
                 </span>{" "}
@@ -44,8 +44,8 @@ const ContactPage = () => {
                           <div className="dbox w-100 d-flex align-items-start">
                             <div className="text">
                               <p>
-                                <span>Address:</span> 198 West 21th Street,
-                                Suite 721 New York NY 10016
+                                <span>Address:</span> Ibn Battuta Gate Office,
+                                404A - Dubai, UAE
                               </p>
                             </div>
                           </div>
@@ -55,12 +55,9 @@ const ContactPage = () => {
                             <div className="text">
                               <p>
                                 <span>Email:</span>{" "}
-                                <Link href="https://preview.colorlib.com/cdn-cgi/l/email-protection#dbb2b5bdb49ba2b4aea9a8b2afbef5b8b4b6">
-                                  <span
-                                    className="__cf_email__"
-                                    data-cfemail="157c7b737a556c7a6067667c61703b767a78"
-                                  >
-                                    [email&#160;protected]
+                                <Link href="mailto:Bilal@vayk.ae">
+                                  <span className="__cf_email__">
+                                    Bilal@vayk.ae
                                   </span>
                                 </Link>
                               </p>
@@ -72,8 +69,11 @@ const ContactPage = () => {
                             <div className="text">
                               <p>
                                 <span>Phone:</span>{" "}
-                                <Link href="tel://1234567920">
-                                  + 1235 2355 98
+                                <Link
+                                  href="https://wa.me/+971568708213"
+                                  target="_blank"
+                                >
+                                  +971 56 870 8213{" "}
                                 </Link>
                               </p>
                             </div>
@@ -94,6 +94,7 @@ const ContactPage = () => {
                                 name="name"
                                 id="name"
                                 placeholder="Name"
+                                disabled
                               />
                             </div>
                           </div>
@@ -105,6 +106,7 @@ const ContactPage = () => {
                                 name="email"
                                 id="email"
                                 placeholder="Email"
+                                disabled
                               />
                             </div>
                           </div>
@@ -116,6 +118,7 @@ const ContactPage = () => {
                                 name="subject"
                                 id="subject"
                                 placeholder="Subject"
+                                disabled
                               />
                             </div>
                           </div>
@@ -127,6 +130,7 @@ const ContactPage = () => {
                                 id="message"
                                 cols={30}
                                 rows={4}
+                                disabled
                                 placeholder="Create a message here"
                               ></textarea>
                             </div>
@@ -137,6 +141,7 @@ const ContactPage = () => {
                                 type="submit"
                                 value="Send Message"
                                 className="btn btn-primary"
+                                disabled
                               />
                               <div className="submitting"></div>
                             </div>

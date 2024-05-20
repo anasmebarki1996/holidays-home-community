@@ -14,7 +14,7 @@ const AgentsPage = () => {
             <div className="col-md-9 pt-5 text-center">
               <p className="breadcrumbs">
                 <span className="mr-2">
-                  <Link href="index">
+                  <Link href="/">
                     Home <i className="fa fa-chevron-right"></i>
                   </Link>
                 </span>{" "}

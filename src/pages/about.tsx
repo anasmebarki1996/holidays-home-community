@@ -1,3 +1,5 @@
+import GetTouch from "@/components/get-touch.component";
+import Testimonial from "@/components/testimonial.component";
 import Link from "next/link";
 import React from "react";
 
@@ -14,7 +16,7 @@ const about = () => {
             <div className="col-md-9 pt-5 text-center">
               <p className="breadcrumbs">
                 <span className="mr-2">
-                  <Link href="index">
+                  <Link href="/">
                     Home <i className="fa fa-chevron-right"></i>
                   </Link>
                 </span>{" "}
@@ -38,12 +40,12 @@ const about = () => {
             </div>
             <div className="col-md-8 heading-section">
               <span className="subheading">About Us</span>
-              <h2 className="mb-4">Oakberry A Real Estate Company</h2>
+              <h2 className="mb-4">HHC: A Holiday Homes Community</h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
+                Nestled in the heart of Dubai, HHC offers a luxurious collection
+                of holiday homes that redefine comfort and elegance. Our
+                exclusive community provides a perfect retreat for families,
+                couples, and groups seeking an exceptional vacation experience.{" "}
               </p>
               <div className="row py-5">
                 <div className="col-md-6 col-lg-3">
@@ -51,7 +53,7 @@ const about = () => {
                     <div className="text">
                       <span className="d-block number gradient-text">
                         <span id="count1" className="counter" data-count="50">
-                          0
+                          +2
                         </span>
                       </span>
                       <p>Years of Experienced</p>
@@ -63,20 +65,20 @@ const about = () => {
                     <div className="text">
                       <span className="d-block number gradient-text">
                         <span id="count2" className="counter" data-count="210">
-                          0
+                          150
                         </span>
-                        K+
+                        +
                       </span>
                       <p>Total Properties</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-3">
-                  <div className="counter-wrap">
+                  <div className="counter-wrap" data-aos-delay="200">
                     <div className="text">
                       <span className="d-block number gradient-text">
                         <span id="count2" className="counter" data-count="450">
-                          0
+                          10
                         </span>
                       </span>
                       <p>Qualified Realtors</p>
@@ -84,11 +86,11 @@ const about = () => {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-3">
-                  <div className="counter-wrap">
+                  <div className="counter-wrap" data-aos-delay="300">
                     <div className="text">
                       <span className="d-block number gradient-text">
                         <span id="count2" className="counter" data-count="100">
-                          0
+                          4
                         </span>
                       </span>
                       <p>Total Branches</p>
@@ -118,197 +120,19 @@ const about = () => {
                   Far far away, behind the word mountains, far from the
                   countries Vokalia and Consonantia, there live the blind texts.
                 </p>
-                <Link
+                {/* <Link
                   href="about"
                   className="video-icon d-flex align-items-center justify-content-center"
                 >
                   <span className="ion-ios-play"></span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section
-        className="ftco-intro ftco-no-pt ftco-no-pb img"
-        style={{ backgroundImage: "url('/images/bg_4.jpg')" }}
-      >
-        <div className="overlay"></div>
-        <div className="container-xl py-5">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 col-xl-8">
-              <div className="row">
-                <div className="col-md-8 d-flex align-items-center">
-                  <div>
-                    <h1 className="mb-0">Find Best Place For Leaving</h1>
-                    <p>Find Best Place For Leaving</p>
-                  </div>
-                </div>
-                <div className="col-md-4 d-flex align-items-center">
-                  <p className="mb-0">
-                    <Link href="about" className="btn btn-black py-3 px-4">
-                      Get in touch
-                    </Link>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="ftco-section testimony-section bg-light">
-        <div className="container-xl">
-          <div className="row justify-content-center pb-4">
-            <div
-              className="col-md-7 text-center heading-section"
-              data-aos-duration="1000"
-            >
-              <span className="subheading">Testimonial</span>
-              <h2 className="mb-3">Clients We Help</h2>
-            </div>
-          </div>
-          <div className="row">
-            <div
-              className="col-md-12"
-              data-aos-duration="1000"
-              data-aos-delay="100"
-            >
-              <div className="carousel-testimony">
-                <div className="item">
-                  <div className="testimony-wrap">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="fa fa-quote-left" />
-                    </div>
-                    <div className="text">
-                      <p className="mb-4 msg">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <div className="d-flex align-items-center">
-                        <div
-                          className="user-img"
-                          style={{
-                            backgroundImage: "url('/images/person_1.jpg')",
-                          }}
-                        ></div>
-                        <div className="pl-3 tx">
-                          <p className="name">Roger Scott</p>
-                          <span className="position">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="testimony-wrap">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="fa fa-quote-left" />
-                    </div>
-                    <div className="text">
-                      <p className="mb-4 msg">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <div className="d-flex align-items-center">
-                        <div
-                          className="user-img"
-                          style={{
-                            backgroundImage: "url('/images/person_2.jpg')",
-                          }}
-                        ></div>
-                        <div className="pl-3 tx">
-                          <p className="name">Roger Scott</p>
-                          <span className="position">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="testimony-wrap">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="fa fa-quote-left" />
-                    </div>
-                    <div className="text">
-                      <p className="mb-4 msg">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <div className="d-flex align-items-center">
-                        <div
-                          className="user-img"
-                          style={{
-                            backgroundImage: "url('/images/person_3.jpg')",
-                          }}
-                        ></div>
-                        <div className="pl-3 tx">
-                          <p className="name">Roger Scott</p>
-                          <span className="position">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="testimony-wrap">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="fa fa-quote-left" />
-                    </div>
-                    <div className="text">
-                      <p className="mb-4 msg">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <div className="d-flex align-items-center">
-                        <div
-                          className="user-img"
-                          style={{
-                            backgroundImage: "url('/images/person_1.jpg')",
-                          }}
-                        ></div>
-                        <div className="pl-3 tx">
-                          <p className="name">Roger Scott</p>
-                          <span className="position">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="testimony-wrap">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="fa fa-quote-left" />
-                    </div>
-                    <div className="text">
-                      <p className="mb-4 msg">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <div className="d-flex align-items-center">
-                        <div
-                          className="user-img"
-                          style={{
-                            backgroundImage: "url('/images/person_2.jpg')",
-                          }}
-                        ></div>
-                        <div className="pl-3 tx">
-                          <p className="name">Roger Scott</p>
-                          <span className="position">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <GetTouch />
+      <Testimonial />
       <section className="ftco-gallery">
         <div className="container-xl-fluid">
           <div className="row g-0">
