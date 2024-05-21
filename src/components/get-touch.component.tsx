@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React from "react";
+import { useTranslation, Trans } from "next-i18next";
 
 const GetTouch = () => {
+  const { t, i18n } = useTranslation();
   return (
     <section
       className="ftco-intro ftco-no-pt ftco-no-pb img"

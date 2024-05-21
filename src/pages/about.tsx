@@ -2,6 +2,13 @@ import GetTouch from "@/components/get-touch.component";
 import Testimonial from "@/components/testimonial.component";
 import Link from "next/link";
 import React from "react";
+import { useTranslation, Trans } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { GetServerSideProps, GetStaticProps } from "next";
+
+type Props = {
+  // Add custom props here
+};
 
 const about = () => {
   return (
@@ -207,6 +214,15 @@ const about = () => {
       </section>
     </>
   );
+};
+
+export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => {
+  const nextI18n = await serverSideTranslations(locale ?? "en", ["common"]);
+  return {
+    props: {
+      ...nextI18n,
+    },
+  };
 };
 
 export default about;

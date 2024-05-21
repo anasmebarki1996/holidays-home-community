@@ -2,8 +2,16 @@ import Filter from "@/components/filter.component";
 import { holidayHomesList } from "@/utils/data";
 import Link from "next/link";
 import React from "react";
+import { useTranslation, Trans } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { GetStaticProps } from "next";
+
+type Props = {
+  // Add custom props here
+};
 
 const PropertiesPage = () => {
+  const { t, i18n } = useTranslation();
   return (
     <>
       <section
@@ -118,6 +126,15 @@ const PropertiesPage = () => {
       </section>
     </>
   );
+};
+
+export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => {
+  const nextI18n = await serverSideTranslations(locale ?? "en", ["common"]);
+  return {
+    props: {
+      ...nextI18n,
+    },
+  };
 };
 
 export default PropertiesPage;

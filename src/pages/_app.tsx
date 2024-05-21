@@ -1,10 +1,10 @@
 // src/pages/_app.tsx
 // eslint-disable @next/next/no-sync-scripts
-
 import { Footer, Header } from "@/components";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import { appWithTranslation } from "next-i18next";
+import nextI18NextConfig from "../../next-i18next.config.js";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -68,4 +68,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default appWithTranslation(MyApp);
+export default appWithTranslation(MyApp, nextI18NextConfig);

@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React from "react";
+import { useTranslation, Trans } from "next-i18next";
 
 const Filter = () => {
+  const { t, i18n } = useTranslation();
   return (
     <section className="ftco-section ftco-no-pb ftco-no-pt">
       <div className="container">

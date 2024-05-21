@@ -1966,6 +1966,21 @@ h5,
   margin-bottom: 0;
   font-size: 12px;
 }
+
+.topper .text .language {
+  display: flex;
+  gap: 5px;
+}
+
+.topper .text .language button {
+  background: transparent;
+  border: unset;
+}
+
+.topper .text .language a.active {
+  color: white;
+}
+
 .topper .text .con {
   margin-bottom: 0;
   font-size: 12px;

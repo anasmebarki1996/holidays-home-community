@@ -1,13 +1,20 @@
 import Link from "next/link";
-import React from "react";
+import React, { use, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export const Header = () => {
-  const { t, i18n } = useTranslation("common");
+  const { t, i18n } = useTranslation("");
+
+  const [language, setLanguage] = useState("en");
 
   const changeLanguage = (lng: string) => {
-    // i18n.changeLanguage(lng);
+    setLanguage(lng);
   };
+
+  useEffect(() => {
+    console.log(i18n.language);
+    setLanguage(i18n.language);
+  }, [i18n.language]);
 
   return (
     <>
@@ -44,11 +51,29 @@ export const Header = () => {
                 <p className="con">
                   <span>Connect </span> <span>with us</span>
                 </p>
-                <p className="con">
-                  <span onClick={() => changeLanguage("en")}>English</span>
-                  <span onClick={() => changeLanguage("rs")}>Russian</span>
-                  <span onClick={() => changeLanguage("ar")}>Arabic</span>
-                </p>
+                <div className="language">
+                  <Link
+                    className={language === "en" ? "active" : ""}
+                    href="/"
+                    locale={"en"}
+                  >
+                    English
+                  </Link>
+                  <Link
+                    className={language === "rs" ? "active" : ""}
+                    href="/"
+                    locale={"rs"}
+                  >
+                    Russian
+                  </Link>
+                  <Link
+                    className={language === "ar" ? "active" : ""}
+                    href="/"
+                    locale={"ar"}
+                  >
+                    Arabic
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -56,7 +81,7 @@ export const Header = () => {
       </div>
       <nav className="navbar navbar-expand-lg  ftco-navbar-light">
         <div className="container-xl">
-          <Link className="navbar-brand align-items-center" href="/">
+          <Link className="-brand align-items-center" href="/">
             <span style={{ textAlign: "center" }}>
               HHC <small>Holiday Homes community</small>
             </span>

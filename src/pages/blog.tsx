@@ -1,5 +1,12 @@
 import Link from "next/link";
 import React from "react";
+import { useTranslation, Trans } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { GetServerSideProps, GetStaticProps } from "next";
+
+type Props = {
+  // Add custom props here
+};
 
 const BlogPage = () => {
   return (
@@ -296,6 +303,15 @@ const BlogPage = () => {
       </section>
     </>
   );
+};
+
+export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => {
+  const nextI18n = await serverSideTranslations(locale ?? "en", ["common"]);
+  return {
+    props: {
+      ...nextI18n,
+    },
+  };
 };
 
 export default BlogPage;

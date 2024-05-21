@@ -3,11 +3,18 @@ import GetTouch from "@/components/get-touch.component";
 import Testimonial from "@/components/testimonial.component";
 import { holidayHomesList, neighborhoods } from "@/utils/data";
 import Link from "next/link";
-import React from "react";
-import { useTranslation } from "react-i18next";
+import React, { useEffect } from "react";
+import nextI18nextConfig from "../../next-i18next.config";
+import { useTranslation, Trans } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { GetServerSideProps, GetStaticProps } from "next";
+
+type Props = {
+  // Add custom props here
+};
 
 const HomePage = () => {
-  const { t } = useTranslation("common"); // 'common' is the namespace
+  const { t, i18n } = useTranslation();
 
   return (
     <>
@@ -70,7 +77,7 @@ const HomePage = () => {
                         <div className="row justify-content-center">
                           <div className="col-md-10 col-xl-6">
                             <div className="text text-center">
-                              <h2>Your Property Is Our Priority</h2>
+                              <h2>{t("discover")}</h2>
                               <p className="mb-5">
                                 Join our exclusive holiday homes community and
                                 experience luxury living in Dubai. Enjoy
@@ -760,6 +767,18 @@ const HomePage = () => {
       </section>
     </>
   );
+};
+
+// export const getServerSideProps: GetServerSideProps<Props> = async ({
+//   locale,
+// }) => {
+export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => {
+  const nextI18n = await serverSideTranslations(locale ?? "en", ["common"]);
+  return {
+    props: {
+      ...nextI18n,
+    },
+  };
 };
 
 export default HomePage;
