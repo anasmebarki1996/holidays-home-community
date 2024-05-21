@@ -32,7 +32,7 @@ const Testimonial = () => {
                         }}
                       ></div>
                       <div className="pl-3 tx">
-                        <p className="name">Daniel Bilal</p>
+                        <p className="name">Daniel</p>
                         <span className="position">Marketing Manager</span>
                       </div>
                     </div>
@@ -58,7 +58,7 @@ const Testimonial = () => {
                         }}
                       ></div>
                       <div className="pl-3 tx">
-                        <p className="name">Daniel Bilal</p>
+                        <p className="name">Daniel</p>
                         <span className="position">Marketing Manager</span>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ const Testimonial = () => {
                         }}
                       ></div>
                       <div className="pl-3 tx">
-                        <p className="name">Daniel Bilal</p>
+                        <p className="name">Daniel</p>
                         <span className="position">Marketing Manager</span>
                       </div>
                     </div>
@@ -110,7 +110,7 @@ const Testimonial = () => {
                         }}
                       ></div>
                       <div className="pl-3 tx">
-                        <p className="name">Daniel Bilal</p>
+                        <p className="name">Daniel</p>
                         <span className="position">Marketing Manager</span>
                       </div>
                     </div>
