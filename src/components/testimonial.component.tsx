@@ -28,11 +28,11 @@ const Testimonial = () => {
                       <div
                         className="user-img"
                         style={{
-                          backgroundImage: "url('/images/person_1.jpg')",
+                          backgroundImage: "url('/images/person.jpg')",
                         }}
                       ></div>
                       <div className="pl-3 tx">
-                        <p className="name">Roger Scott</p>
+                        <p className="name">Daniel Bilal</p>
                         <span className="position">Marketing Manager</span>
                       </div>
                     </div>
@@ -54,11 +54,11 @@ const Testimonial = () => {
                       <div
                         className="user-img"
                         style={{
-                          backgroundImage: "url('/images/person_2.jpg')",
+                          backgroundImage: "url('/images/person.jpg')",
                         }}
                       ></div>
                       <div className="pl-3 tx">
-                        <p className="name">Roger Scott</p>
+                        <p className="name">Daniel Bilal</p>
                         <span className="position">Marketing Manager</span>
                       </div>
                     </div>
@@ -80,11 +80,11 @@ const Testimonial = () => {
                       <div
                         className="user-img"
                         style={{
-                          backgroundImage: "url('/images/person_3.jpg')",
+                          backgroundImage: "url('/images/person.jpg')",
                         }}
                       ></div>
                       <div className="pl-3 tx">
-                        <p className="name">Roger Scott</p>
+                        <p className="name">Daniel Bilal</p>
                         <span className="position">Marketing Manager</span>
                       </div>
                     </div>
@@ -106,11 +106,11 @@ const Testimonial = () => {
                       <div
                         className="user-img"
                         style={{
-                          backgroundImage: "url('/images/person_1.jpg')",
+                          backgroundImage: "url('/images/person.jpg')",
                         }}
                       ></div>
                       <div className="pl-3 tx">
-                        <p className="name">Roger Scott</p>
+                        <p className="name">Daniel Bilal</p>
                         <span className="position">Marketing Manager</span>
                       </div>
                     </div>

@@ -49,7 +49,7 @@ export const Header = () => {
               </div>
               <div className="text pl-3 pl-md-3">
                 <p className="con">
-                  <span>Connect </span> <span>with us</span>
+                  <span>Choose </span> <span>your language</span>
                 </p>
                 <div className="language">
                   <Link
@@ -81,7 +81,7 @@ export const Header = () => {
       </div>
       <nav className="navbar navbar-expand-lg  ftco-navbar-light">
         <div className="container-xl">
-          <Link className="-brand align-items-center" href="/">
+          <Link className="navbar-brand align-items-center" href="/">
             <span style={{ textAlign: "center" }}>
               HHC <small>Holiday Homes community</small>
             </span>

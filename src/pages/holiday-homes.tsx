@@ -62,7 +62,7 @@ const PropertiesPage = () => {
                       <div
                         className="img"
                         style={{
-                          backgroundImage: "url('/images/person_1.jpg')",
+                          backgroundImage: "url('/images/person.jpg')",
                         }}
                       ></div>
                       <h3 className="ml-2">John Dorf</h3>

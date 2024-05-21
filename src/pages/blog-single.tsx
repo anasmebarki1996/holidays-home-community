@@ -103,7 +103,7 @@ const BlogSinglePage = () => {
               <div className="about-author d-flex p-4 bg-light rounded">
                 <div className="bio mr-5">
                   <img
-                    src="images/person_1.jpg"
+                    src="images/person.jpg"
                     alt="Image placeholder"
                     className="img-fluid mb-4"
                   />
@@ -129,7 +129,7 @@ const BlogSinglePage = () => {
                 <ul className="comment-list">
                   <li className="comment">
                     <div className="vcard bio">
-                      <img src="images/person_1.jpg" alt="Image placeholder" />
+                      <img src="images/person.jpg" alt="Image placeholder" />
                     </div>
                     <div className="comment-body">
                       <h3>John Doe</h3>
@@ -150,7 +150,7 @@ const BlogSinglePage = () => {
                   </li>
                   <li className="comment">
                     <div className="vcard bio">
-                      <img src="images/person_1.jpg" alt="Image placeholder" />
+                      <img src="images/person.jpg" alt="Image placeholder" />
                     </div>
                     <div className="comment-body">
                       <h3>John Doe</h3>
@@ -172,7 +172,7 @@ const BlogSinglePage = () => {
                       <li className="comment">
                         <div className="vcard bio">
                           <img
-                            src="images/person_1.jpg"
+                            src="images/person.jpg"
                             alt="Image placeholder"
                           />
                         </div>
@@ -198,7 +198,7 @@ const BlogSinglePage = () => {
                           <li className="comment">
                             <div className="vcard bio">
                               <img
-                                src="images/person_1.jpg"
+                                src="images/person.jpg"
                                 alt="Image placeholder"
                               />
                             </div>
@@ -228,7 +228,7 @@ const BlogSinglePage = () => {
                   </li>
                   <li className="comment">
                     <div className="vcard bio">
-                      <img src="images/person_1.jpg" alt="Image placeholder" />
+                      <img src="images/person.jpg" alt="Image placeholder" />
                     </div>
                     <div className="comment-body">
                       <h3>John Doe</h3>

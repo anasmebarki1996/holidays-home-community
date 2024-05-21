@@ -45,7 +45,7 @@ const AgentsPage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-1.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -56,7 +56,7 @@ const AgentsPage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Mike Bochs</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -103,7 +103,7 @@ const AgentsPage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-2.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -114,7 +114,7 @@ const AgentsPage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Mike Bochs</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -161,7 +161,7 @@ const AgentsPage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-3.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -172,7 +172,7 @@ const AgentsPage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Jessica Moore</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -219,7 +219,7 @@ const AgentsPage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-4.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -230,7 +230,7 @@ const AgentsPage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Sarah Geronimo</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -277,7 +277,7 @@ const AgentsPage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-5.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -288,7 +288,7 @@ const AgentsPage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Mike Bochs</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -335,7 +335,7 @@ const AgentsPage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-6.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -346,7 +346,7 @@ const AgentsPage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Mike Bochs</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -393,7 +393,7 @@ const AgentsPage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-7.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -404,7 +404,7 @@ const AgentsPage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Jessica Moore</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -451,7 +451,7 @@ const AgentsPage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-8.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -462,7 +462,7 @@ const AgentsPage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Sarah Geronimo</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">

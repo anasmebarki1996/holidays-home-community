@@ -209,7 +209,7 @@ const HomePage = () => {
                       <div
                         className="img"
                         style={{
-                          backgroundImage: "url('/images/person_1.jpg')",
+                          backgroundImage: "url('/images/person.jpg')",
                         }}
                       ></div>
                       <h3 className="ml-2">John Dorf</h3>
@@ -363,7 +363,7 @@ const HomePage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-1.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -374,7 +374,7 @@ const HomePage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Mike Bochs</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -417,7 +417,7 @@ const HomePage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-2.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -428,7 +428,7 @@ const HomePage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Mike Bochs</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -471,7 +471,7 @@ const HomePage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-3.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -482,7 +482,7 @@ const HomePage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Jessica Moore</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
@@ -525,7 +525,7 @@ const HomePage = () => {
               <div className="agent">
                 <div className="img">
                   <img
-                    src="images/team-4.jpg"
+                    src="images/person.jpg"
                     className="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -536,7 +536,7 @@ const HomePage = () => {
                     <span className="details">10 Properties</span>
                   </p>
                   <h3>
-                    <Link href="properties">Sarah Geronimo</Link>
+                    <Link href="properties">Daniel</Link>
                   </h3>
                   <ul className="ftco-social">
                     <li className="ftco-animate">
